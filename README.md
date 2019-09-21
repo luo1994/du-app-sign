@@ -7,21 +7,20 @@
 - 3.pyexejs执行生成sign的js逻辑函数；
 
 **使用教程：**
-  ``` python
-  sign的密匙列表：
-    品牌系列列表页api的sign密匙构造：
-      'lastId{}recommendId{}048a9c4943398714b356a696503d2d36'.format(page, brand_id)
-       https://m.poizon.com/mapi/product/recommendDetail?recommendId={}&lastId={}&sign={}
-    商品详细数据页api的sign密匙构造：   
-      'productId{}sourceshareDetail048a9c4943398714b356a696503d2d36'.format(product_id)
-       https://m.poizon.com/mapi/product/detail?productId={}&source=shareDetail&sign={}
-    商品最近购买记录页api的sign密匙构造：
-      'lastId{}limit20productId{}sourceAppapp19bc545a393a25177083d4a748807cc0'.format(lastId, productId)
-       https://app.poizon.com/api/v1/h5/product/fire/recentSoldList?productId={}&lastId={}&limit=20&sourceApp=app&sign={}
-    前两个api来自于pc端js逆向，后面一个api来自于微信小程序的js逆向，所以构造请求的时候请注意headers的构造！！！最近购买的请求头特别要注意！
-     ```
+- 前两个api来自于pc端js逆向，后面一个api来自于微信小程序的js逆向，所以构造请求的时候请注意headers的构造！！！最近购买的请求头特别要注意！
+- sign的密匙列表：
+  - 品牌系列列表页api的sign密匙构造：
+      - 'lastId{}recommendId{}048a9c4943398714b356a696503d2d36'.format(page, brand_id)
+      - https://m.poizon.com/mapi/product/recommendDetail?recommendId={}&lastId={}&sign={}
+  - 商品详细数据页api的sign密匙构造：   
+      - 'productId{}sourceshareDetail048a9c4943398714b356a696503d2d36'.format(product_id)
+      - https://m.poizon.com/mapi/product/detail?productId={}&source=shareDetail&sign={}
+   - 商品最近购买记录页api的sign密匙构造：
+      - 'lastId{}limit20productId{}sourceAppapp19bc545a393a25177083d4a748807cc0'.format(lastId, productId)
+      - https://app.poizon.com/api/v1/h5/product/fire/recentSoldList?productId={}&lastId={}&limit=20&sourceApp=app&sign={}
+    
     ### pyexejs代码例子
-    ``` python
+    ``` 
     import execjs
     import requests
     def get_recensales_list_url(lastId, productId):
@@ -48,7 +47,6 @@
     print(response.text)
     ```
     这三个api基本涵盖毒app的核心数据api
-     >**（本项目仅用于学习用途，使用本项目的一切后果自负，如果毒app看到本项目觉得需要删除请联系邮箱）**。
     
 **交流：https://t.me/joinchat/M3PE4RbHgrZJKhMIgQLwoQ**
 ## 结果
@@ -61,3 +59,4 @@
  **商品详情**
  ![Alt text](./pic/du_detail.png)
  
+  >**（本项目仅用于学习用途，使用本项目的一切后果自负，如果毒app看到本项目觉得需要删除请联系邮箱）**。
