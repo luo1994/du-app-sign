@@ -58,6 +58,6 @@ print(response.text)
  **商品详情**
  ![Alt text](./pic/du_detail.png)
  **请我喝杯咖啡:heartpulse:**
- <img src="https://github.com/luo1994/du-app-sign/blob/master/pic/%E8%B5%9E%E8%B5%8F.png" width="25%" height="25%">
+ <img src="https://github.com/luo1994/du-app-sign/blob/master/pic/%E8%B5%9E%E8%B5%8F.png" width="50%" height="50%" align="left">
  
   >**（本项目仅用于学习用途，使用本项目的一切后果自负，如果毒app看到本项目觉得需要删除请联系邮箱）**。
