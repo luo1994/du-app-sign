@@ -6,7 +6,8 @@
 - 3.pyexejs执行生成sign的js逻辑函数；
 
 **使用教程：**
-- 前两个api来自于pc端js逆向，后面一个api来自于微信小程序的js逆向，所以构造请求的时候请注意headers的构造！！！最近购买的请求头特别要注意！
+- 前两个api来自于pc端js逆向，后面一个api来自于微信小程序的js逆向，<br>
+  所以构造请求的时候请注意headers的构造！！！最近购买的请求头特别要注意！
 - sign的密匙列表：
   - 品牌系列列表页api的sign密匙构造：
       - 'lastId{}recommendId{}048a9c4943398714b356a696503d2d36'.format(page, brand_id)
