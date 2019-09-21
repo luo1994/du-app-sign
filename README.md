@@ -1,6 +1,6 @@
+**交流：https://t.me/joinchat/M3PE4RbHgrZJKhMIgQLwoQ**
 # 毒app的sign加签破解
 **逆向js破解毒sign参数，抓取毒app品牌列表页数据，毒app商品详情页数据**
-
 **三种方法分别为：**
 - 1.使用python强转js函数为python函数 ；
 - 2.js2py执行生成sign的js逻辑函数 ；
@@ -45,10 +45,9 @@
     recensales_list_url = get_recensales_list_url(0, 40755)
     response = requests.get(url=recensales_list_url, headers=headers)
     print(response.text)
+    # 这三个api基本涵盖毒app的核心数据api
     ```
-    这三个api基本涵盖毒app的核心数据api
     
-**交流：https://t.me/joinchat/M3PE4RbHgrZJKhMIgQLwoQ**
 ## 结果
  **词云**
  ![Alt text](./pic/du_wordcloud.png)
