@@ -58,6 +58,6 @@ print(response.text)
  **商品详情**
  ![Alt text](./pic/du_detail.png)
  **请我喝杯咖啡:heartpulse:**
- ![Alt text](./pic/赞赏.png)
+ ![Alt text](./pic/赞赏.png =100x100)
  
   >**（本项目仅用于学习用途，使用本项目的一切后果自负，如果毒app看到本项目觉得需要删除请联系邮箱）**。
