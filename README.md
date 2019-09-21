@@ -22,6 +22,17 @@
  ``` 
 import execjs
 import requests
+headers = {
+    'Host': "app.poizon.com",
+    'User-Agent': "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)"
+    " Chrome/53.0.2785.143 Safari/537.36 MicroMessenger/7.0.4.501 NetType/WIFI "
+    "MiniProgramEnv/Windows WindowsWechat",
+    'appid': "wxapp",
+    'appversion': "4.4.0",
+    'content-type': "application/x-www-form-urlencoded",
+    'Accept-Encoding': "gzip, deflate",
+    'Accept': "*/*",
+ }
 def get_recensales_list_url(lastId, productId):
     with open('sign.js', 'r', encoding='utf-8')as f:
         all_ = f.read()
@@ -30,17 +41,6 @@ def get_recensales_list_url(lastId, productId):
         recensales_list_url = 'https://app.poizon.com/api/v1/h5/product/fire/recentSoldList?' \
                               'productId={}&lastId={}&limit=20&sourceApp=app&sign={}'.format(productId, lastId, sign)
         return recensales_list_url
-headers = {
-        'Host': "app.poizon.com",
-        'User-Agent': "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)"
-                      " Chrome/53.0.2785.143 Safari/537.36 MicroMessenger/7.0.4.501 NetType/WIFI "
-                      "MiniProgramEnv/Windows WindowsWechat",
-        'appid': "wxapp",
-        'appversion': "4.4.0",
-        'content-type': "application/x-www-form-urlencoded",
-        'Accept-Encoding': "gzip, deflate",
-        'Accept': "*/*",
-    }
 recensales_list_url = get_recensales_list_url(0, 40755)
 response = requests.get(url=recensales_list_url, headers=headers)
 print(response.text)
