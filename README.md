@@ -48,8 +48,7 @@ print(response.text)
 # 这三个api基本涵盖毒app的核心数据api
 ```
 **交流：https://t.me/joinchat/M3PE4RbHgrZJKhMIgQLwoQ**<br>
-**请我喝杯咖啡**<br>
-<img src="https://github.com/luo1994/du-app-sign/blob/master/pic/%E8%B5%9E%E8%B5%8F.png" width="20%" height="20%"><br>
+<!-- <img src="https://github.com/luo1994/du-app-sign/blob/master/pic/%E8%B5%9E%E8%B5%8F.png" width="20%" height="20%"><br> -->
     
 ## 结果
  **词云**
