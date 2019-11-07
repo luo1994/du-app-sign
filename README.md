@@ -69,4 +69,4 @@ print(response.text)
  ![Alt text](./pic/du_detail.png)
 >**（本项目仅用于学习用途，使用本项目的一切后果自负，如果毒app看到本项目觉得需要删除请联系邮箱）**。
 ![Alt text](./赞赏.png )
-<img src="https://github.com/luo1994/du-app-sign/blob/master/pic/%E8%B5%9E%E8%B5%8F.png" width="25%" height="25%">
+<img src="https://github.com/luo1994/du-app-sign/pic/%E8%B5%9E%E8%B5%8F.png" width="25%" height="25%">
