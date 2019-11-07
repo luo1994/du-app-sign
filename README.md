@@ -21,8 +21,7 @@
       -  X(废弃) 'productId{}sourceshareDetail048a9c4943398714b356a696503d2d36'.format(product_id)
       -  X(废弃) https://m.poizon.com/mapi/product/detail?productId={}&source=shareDetail&sign={}
       -  √(最新sign构造) 'productId{}productSourceNamewx19bc545a393a25177083d4a748807cc0'.format(productId)
-      -  √(最新url) 'https://app.poizon.com/api/v1/h5/index/fire/flow/product/detail?' \
-                              'productId={}&productSourceName=wx&sign={}'.format(productId, sign)
+      -  √(最新url) https://app.poizon.com/api/v1/h5/index/fire/flow/product/detail?productId={}&productSourceName=wx&sign={}
    - 商品最近购买记录页api的sign密匙构造：
       - 'lastId{}limit20productId{}sourceAppapp19bc545a393a25177083d4a748807cc0'.format(lastId, productId)
       - https://app.poizon.com/api/v1/h5/product/fire/recentSoldList?productId={}&lastId={}&limit=20&sourceApp=app&sign={}
