@@ -25,7 +25,7 @@
    - 商品最近购买记录页api的sign密匙构造：
       - 'lastId{}limit20productId{}sourceAppapp19bc545a393a25177083d4a748807cc0'.format(lastId, productId)
       - https://app.poizon.com/api/v1/h5/product/fire/recentSoldList?productId={}&lastId={}&limit=20&sourceApp=app&sign={}
-      - lastId
+    
    - 后期计划加入搜索接口，scrapy-redis分布式 
  ### pyexejs代码例子
  ``` 
