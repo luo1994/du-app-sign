@@ -68,5 +68,5 @@ print(response.text)
  **商品详情**
  ![Alt text](./pic/du_detail.png)
 >**（本项目仅用于学习用途，使用本项目的一切后果自负，如果毒app看到本项目觉得需要删除请联系邮箱）**。
->** 请我喝杯咖啡，维护不易**
+<br>** 请我喝杯咖啡，维护不易**
 <img src="https://github.com/luo1994/du-app-sign/tree/master/pic/赞赏.png" width="25%" height="25%">
