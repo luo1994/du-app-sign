@@ -1,5 +1,7 @@
 # 毒app的sign加签破解
-**逆向js破解毒sign参数，抓取毒app品牌列表页数据，毒app商品详情页数据，最近购买数据，搜索商品数据**
+
+**逆向js破解毒sign参数，抓取毒app品牌列表页数据，毒app商品详情页数据，最近购买数据，搜索商品数据**<br>
+
 **三种方法分别为：**
 - 1.使用python强转js函数为python函数 ；
 - 2.js2py执行生成sign的js逻辑函数 ；
@@ -120,5 +122,5 @@ print(product_detail_response.text)
  ![Alt text](./pic/du_detail.png)
 >**（本项目仅用于学习用途，使用本项目的一切后果自负，如果毒app看到本项目觉得需要删除请联系邮箱）**。
 <br>
->**请我喝杯咖啡，维护不易**<br>
-![Alt text](./pic/赞赏.png)
+ **请我喝杯咖啡，维护不易**<br>
+ ![Alt text](./pic/赞赏.png)
