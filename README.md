@@ -88,8 +88,7 @@ def get_product_detail_url(productId):
         all_ = f.read()
         ctx = execjs.compile(all_)
         sign = ctx.call('getSign',
-                        'productId{}productSourceNamewx19bc545a393a25177083d4a748807cc0'.format(
-                                                                                                        productId))
+                        'productId{}productSourceNamewx19bc545a393a25177083d4a748807cc0'.format(productId))
         product_detail_url = 'https://app.poizon.com/api/v1/h5/index/fire/flow/product/detail?' \
                               'productId={}&productSourceName=wx&sign={}'.format(productId, sign)
         return product_detail_url   
