@@ -120,5 +120,5 @@ print(product_detail_response.text)
  ![Alt text](./pic/du_detail.png)
 >**（本项目仅用于学习用途，使用本项目的一切后果自负，如果毒app看到本项目觉得需要删除请联系邮箱）**。
 <br>
->**请我喝杯咖啡，维护不易**
+>**请我喝杯咖啡，维护不易**<br>
 ![Alt text](./pic/赞赏.png)
