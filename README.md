@@ -15,8 +15,7 @@
 - sign的密匙列表：
   - 关键词搜索商品接口
       - √(最新sign构造)'limit20page{}sortMode{}sortType{}titleajunionId19bc545a393a25177083d4a748807cc0'.format(page, sortMode, sortType)
-      - √(最新url)'https://app.poizon.com/api/v1/h5/product/fire/search/list?title=aj&page={}&sortType={}&sortMode={}&
-                             limit=20&unionId=&sign={}'.format(page, sortType,sortMode, sign)
+      - √(最新url)'https://app.poizon.com/api/v1/h5/product/fire/search/list?title=aj&page={}&sortType={}&sortMode=        {}&limit=20&unionId=&sign={}'.format(page, sortType,sortMode, sign)
       - page如1为翻页参数，sortType如1为排序方式，sortMode如0
   - 品牌系列列表页api的sign密匙构造：
       -  X(废弃)'lastId{}recommendId{}048a9c4943398714b356a696503d2d36'.format(page, brand_id)
