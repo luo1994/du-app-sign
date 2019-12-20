@@ -31,7 +31,16 @@
    - 商品最近购买记录页api的sign密匙构造：
       - 'lastId{}limit20productId{}sourceAppapp19bc545a393a25177083d4a748807cc0'.format(lastId, productId)
       - https://app.poizon.com/api/v1/h5/product/fire/recentSoldList?productId={}&lastId={}&limit=20&sourceApp=app&sign={}
-    
+      - 最近所有购买记录的翻页参数lastId，下一次翻页请带上次请求返回的lastId作为第二次翻页的页码参数，例如
+      ``` 
+      # 第一次的第一页为 0
+      recensales_list_url = get_recensales_list_url(0, 26850) 
+      # 这个请求返回的json里面的lastId为下一次翻页的参数，所以下一次翻页请填写28879520,以此内推
+      recensales_list_response_text = requests.get(url=recensales_list_url, headers=headers).text 
+      {"status":200,"data":{"lastId":28879520,"list":[{"avatar":"https://du.hupucdn.com/FhQbGz1UY2Znmn1GxpHedYSm-AWV?  imageView2/2/w/50/h/50","userName":"留*V","sizeDesc":"42码","formatTime":"6分钟前","price":92900,"orderSubTypeId":5,"bizType":0}]},"msg":"成功"}
+
+      ``` 
+      
    - 后期计划加入搜索接口，scrapy-redis分布式 
  ### pyexejs代码例子
  ``` 
