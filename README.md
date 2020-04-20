@@ -3,10 +3,10 @@
 **逆向js破解毒sign参数，获取毒app品牌列表页数据，毒app商品详情页数据，最近购买数据，搜索商品数据**<br>
 
 **三种方法分别为：**
-- 1.使用python强转js函数为python函数 ；
-- 2.js2py执行生成sign的js逻辑函数 ；
-- 3.pyexejs执行生成sign的js逻辑函数；
-- 4. md5加密接口约定的post data;
+- Ⅰ.使用python强转js函数为python函数 ；
+- Ⅱ.js2py执行生成sign的js逻辑函数 ；
+- Ⅲ.pyexejs执行生成sign的js逻辑函数；
+- Ⅳ. md5加密接口约定的post data;
 
 **使用教程：**
 (废弃)   【使用请参考本教程】
@@ -219,7 +219,7 @@ if __name__ == '__main__':
     brand_list_load_more_data(page=0, sortType=1, sortMode=1, catId=0, unionId=144)  # nike系列
     product_detail_data(spuId=49413, propertyValueId=0)
 
-# 这四个api基本涵盖毒app的核心数据api
+# 这五个api基本涵盖毒app的核心数据api
 ```
 **交流：https://t.me/joinchat/M3PE4RbHgrZJKhMIgQLwoQ**<br>
 <!-- <img src="https://github.com/luo1994/du-app-sign/blob/master/pic/%E8%B5%9E%E8%B5%8F.png" width="20%" height="20%"><br> -->
