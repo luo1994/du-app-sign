@@ -202,6 +202,7 @@ def index_load_data(lastId):
 def recensales_load_more_data(spuId, lastId):
    # 最近购买接口
    post_data = dict()
+   post_data['limit'] = 20
    post_data['spuId'] = spuId
    post_data['lastId'] = lastId
    post_data['sourceApp'] = 'app'
